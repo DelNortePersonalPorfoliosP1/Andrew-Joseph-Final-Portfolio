@@ -2,8 +2,8 @@
 //  ViewController.h
 //  Calculator
 //
-//  Created by Sutherland, Zachary on 10/15/19.
-//  Copyright © 2019 Sutherland, Zachary. All rights reserved.
+//  Created by John Mortensen on 10/10/19.
+//  Copyright © 2019 JM. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
@@ -14,9 +14,10 @@
 #define MULTIPLY 2
 #define DIVIDE 3
 #define MODULO 4
-#define SQRT 5
-#define EXPONENT 6
-#define SQUARE 7
+#define SIGNCNG 5
+#define POWER2 6
+#define POWER 7
+
 
 @interface ViewController : UIViewController
 /* Section 1: Classic C style variables to support calculation */
