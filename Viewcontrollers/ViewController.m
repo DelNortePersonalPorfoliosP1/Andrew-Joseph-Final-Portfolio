@@ -200,11 +200,21 @@
     [self setInitialCalcAreaInputState:true];
     
 }
-
+int hold = 0;
 -(IBAction)Triangles:(id)sender {  // Interface Builder action for divide (/)
-[self saveValueOfOperator:PYTH];
-[self saveValueOfArg1];
-[self clearCalcAreaLabel];
+    hold++;
+    if (hold>1) {
+        [self calculateAnswer];
+        [self setCalcAreaNumber:[NSString stringWithFormat:@"%f", calcAnswer]];
+        [self setTextCalcAreaLabel];
+        [self saveValueofAnswer];
+        [self setInitialCalcAreaInputState:true];
+}
+    else {
+    [self saveValueOfOperator:PYTH];
+    [self saveValueOfArg1];
+    [self clearCalcAreaLabel];
+    }
 }
 // Interface Builder actions  for numbers and decimal
 -(IBAction)press9Button:(id)sender {  // Interface Builder action for (9)
