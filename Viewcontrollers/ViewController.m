@@ -33,6 +33,7 @@
 {
     // arg2 = [calcAreaNumber doubleValue];  // Obj-C Class method to convert NSSTRING to double
     arg2 = calcAreaNumber.doubleValue;  // Alternate Java like syntax to convert NSSTRING to double
+    [self Argsqd];
     switch(mathOp)
     {
         case PLUS:
@@ -68,27 +69,17 @@
                                calcAnswer=1;
             }
                        break;
-        case MODULO:
-            calcAnswer = (double)((int)arg1 % (int)arg2);
+         case PYTH:
+            calcAnswer = sqrt(arg1sqd + arg2sqd);
             break;
         case -1:
             calcAnswer = arg1;
     }
 }
--(void)HelpMe {
-    int count=0;
-    if (calcAnswer>=10000000000) {
-        while (calcAnswer>=10)
-        {
-            calcAnswer/10;
-            count++;
-         
-            
-        }
-        NSString *keyNumber = @"e";
-        [self concatCalcAreaLabel:keyNumber];
-        
-    }
+
+-(void)Argsqd {
+    arg1sqd = arg1*arg1;
+    arg2sqd = arg2*arg2;
 }
 
 -(void)saveValueOfArg1 { // method to store 1st value in calculation (arg1), C style
@@ -210,7 +201,11 @@
     
 }
 
-
+-(IBAction)Triangles:(id)sender {  // Interface Builder action for divide (/)
+[self saveValueOfOperator:PYTH];
+[self saveValueOfArg1];
+[self clearCalcAreaLabel];
+}
 // Interface Builder actions  for numbers and decimal
 -(IBAction)press9Button:(id)sender {  // Interface Builder action for (9)
     NSString *keyNumber = @"9";

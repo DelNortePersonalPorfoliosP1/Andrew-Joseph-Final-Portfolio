@@ -17,6 +17,7 @@
 #define SIGNCNG 5
 #define POWER2 6
 #define POWER 7
+#define PYTH 8
 
 
 @interface ViewController : UIViewController
@@ -26,6 +27,8 @@
     int mathOp;
     double arg2;
     double calcAnswer;
+    int arg1sqd;
+    int arg2sqd;
 }
 
 /* Section 2: Obj-C style variables to support Calc area management  */
