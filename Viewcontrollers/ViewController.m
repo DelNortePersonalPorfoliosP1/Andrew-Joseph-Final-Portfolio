@@ -5,7 +5,7 @@
 //  Created by John Mortensen on 10/10/19.
 //  Copyright © 2019 JM. All rights reserved.
 //
-
+#include "Calc.h"
 #import "ViewController.h"
 
 //@interface ViewController ()
@@ -31,56 +31,13 @@
 /* Section 1: Methods for managing and performing calculation, C style used where practical */
 -(void)calculateAnswer  // method to perform calculation
 {
+//    int a1 = 0; //to determine which number is a squared funtion
     // arg2 = [calcAreaNumber doubleValue];  // Obj-C Class method to convert NSSTRING to double
     arg2 = calcAreaNumber.doubleValue;  // Alternate Java like syntax to convert NSSTRING to double
-    [self Argsqd];
-    switch(mathOp)
-    {
-        case PLUS:
-            calcAnswer = arg1 + arg2;
-            break;
-        case MINUS:
-            calcAnswer = arg1 - arg2;
-            break;
-        case DIVIDE:
-            calcAnswer = arg1 / arg2;
-            break;
-        case MULTIPLY:
-            calcAnswer = arg1 * arg2;
-            break;
-        case SIGNCNG:
-            calcAnswer = arg1 * -1;
-            break;
-        case POWER2:
-      
-            calcAnswer=arg1*arg1;
-          
-            break;
-            case POWER:
-            calcAnswer = arg1;
-            if (arg2>1) {
-                 while (arg2>1)
-                 {
-                       calcAnswer=calcAnswer*arg1;
-                     arg2--;
-                 }
-            }
-            else if  ((arg2=0)) {
-                               calcAnswer=1;
-            }
-                       break;
-         case PYTH:
-            calcAnswer = sqrt(arg1sqd + arg2sqd);
-            break;
-        case -1:
-            calcAnswer = arg1;
-    }
+    
+    calcAnswer = calc(arg1, mathOp, arg2, arg1sqd, arg2sqd);
 }
 
--(void)Argsqd {
-    arg1sqd = arg1*arg1;
-    arg2sqd = arg2*arg2;
-}
 
 -(void)saveValueOfArg1 { // method to store 1st value in calculation (arg1), C style
     // arg1 = [calcAreaNumber doubleValue];  // Obj-C Class method to convert NSSTRING to double
@@ -149,6 +106,7 @@
 -(IBAction)clearButton:(id)sender { // Interface Builder action for clear (clean calculator)
     [self clearCalculator];          // clear operator
     [self clearCalcAreaLabel];
+    hold = 0;
 }
 
 // Interface Builder for operators buttons
@@ -209,6 +167,7 @@ int hold = 0;
         [self setTextCalcAreaLabel];
         [self saveValueofAnswer];
         [self setInitialCalcAreaInputState:true];
+        hold = 0;
 }
     else {
     [self saveValueOfOperator:PYTH];

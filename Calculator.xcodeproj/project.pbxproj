@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		A544CC872369E15500799EEE /* Patterns.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A544CC862369E15500799EEE /* Patterns.storyboard */; };
-		A5CAD7D22361FD7E00670B11 /* LabMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = A5CAD7D12361FD7E00670B11 /* LabMenu.m */; };
 		A5D9BAF023562ACB005B3D37 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D9BAEF23562ACB005B3D37 /* AppDelegate.m */; };
 		A5D9BAF323562ACB005B3D37 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D9BAF223562ACB005B3D37 /* ViewController.m */; };
 		A5D9BAF623562ACB005B3D37 /* Calculator.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5D9BAF423562ACB005B3D37 /* Calculator.storyboard */; };
@@ -17,11 +16,12 @@
 		A5D9BAFE23562ACD005B3D37 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D9BAFD23562ACD005B3D37 /* main.m */; };
 		A5E58827236353C400D53A24 /* Pythagorean.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5E58826236353C400D53A24 /* Pythagorean.storyboard */; };
 		A5E58829236353FD00D53A24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5E58828236353FD00D53A24 /* Main.storyboard */; };
+		C08B26672373300E00DDE781 /* Calc.c in Sources */ = {isa = PBXBuildFile; fileRef = C08B26662373300E00DDE781 /* Calc.c */; };
+		C0D61C4B2371ED6700CB7547 /* fileio.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0D61C4A2371ED6700CB7547 /* fileio.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A544CC862369E15500799EEE /* Patterns.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Patterns.storyboard; sourceTree = "<group>"; };
-		A5CAD7D12361FD7E00670B11 /* LabMenu.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LabMenu.m; sourceTree = "<group>"; };
 		A5D9BAEB23562ACB005B3D37 /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5D9BAEE23562ACB005B3D37 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A5D9BAEF23562ACB005B3D37 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -34,6 +34,9 @@
 		A5D9BAFD23562ACD005B3D37 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A5E58826236353C400D53A24 /* Pythagorean.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Pythagorean.storyboard; sourceTree = "<group>"; };
 		A5E58828236353FD00D53A24 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		C08B26652373300E00DDE781 /* Calc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Calc.h; sourceTree = "<group>"; };
+		C08B26662373300E00DDE781 /* Calc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Calc.c; sourceTree = "<group>"; };
+		C0D61C4A2371ED6700CB7547 /* fileio.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = fileio.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +53,7 @@
 		A5D9BAE223562ACB005B3D37 = {
 			isa = PBXGroup;
 			children = (
-				A5CAD7D12361FD7E00670B11 /* LabMenu.m */,
+				C08B266423732FEF00DDE781 /* Contol */,
 				A5D9BB0923562CF9005B3D37 /* Viewcontrollers */,
 				A5D9BB0823562CF0005B3D37 /* Models */,
 				A5D9BB0723562CE1005B3D37 /* Views */,
@@ -83,6 +86,7 @@
 				A544CC862369E15500799EEE /* Patterns.storyboard */,
 				A5D9BAF423562ACB005B3D37 /* Calculator.storyboard */,
 				A5E58828236353FD00D53A24 /* Main.storyboard */,
+				C0D61C4A2371ED6700CB7547 /* fileio.storyboard */,
 				A5E58826236353C400D53A24 /* Pythagorean.storyboard */,
 				A5D9BAF923562ACD005B3D37 /* LaunchScreen.storyboard */,
 			);
@@ -105,6 +109,15 @@
 				A5D9BAF223562ACB005B3D37 /* ViewController.m */,
 			);
 			path = Viewcontrollers;
+			sourceTree = "<group>";
+		};
+		C08B266423732FEF00DDE781 /* Contol */ = {
+			isa = PBXGroup;
+			children = (
+				C08B26652373300E00DDE781 /* Calc.h */,
+				C08B26662373300E00DDE781 /* Calc.c */,
+			);
+			path = Contol;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +181,7 @@
 				A5E58829236353FD00D53A24 /* Main.storyboard in Resources */,
 				A5D9BAF823562ACD005B3D37 /* Assets.xcassets in Resources */,
 				A544CC872369E15500799EEE /* Patterns.storyboard in Resources */,
+				C0D61C4B2371ED6700CB7547 /* fileio.storyboard in Resources */,
 				A5D9BAF623562ACB005B3D37 /* Calculator.storyboard in Resources */,
 				A5E58827236353C400D53A24 /* Pythagorean.storyboard in Resources */,
 			);
@@ -180,7 +194,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5CAD7D22361FD7E00670B11 /* LabMenu.m in Sources */,
+				C08B26672373300E00DDE781 /* Calc.c in Sources */,
 				A5D9BAF323562ACB005B3D37 /* ViewController.m in Sources */,
 				A5D9BAFE23562ACD005B3D37 /* main.m in Sources */,
 				A5D9BAF023562ACB005B3D37 /* AppDelegate.m in Sources */,

@@ -9,15 +9,6 @@
 #import <UIKit/UIKit.h>
 
 // Classic C style defines for Operator control
-#define PLUS 0
-#define MINUS 1
-#define MULTIPLY 2
-#define DIVIDE 3
-#define MODULO 4
-#define SIGNCNG 5
-#define POWER2 6
-#define POWER 7
-#define PYTH 8
 
 
 @interface ViewController : UIViewController
