@@ -6,7 +6,7 @@
 //  Copyright © 2019 JM. All rights reserved.
 //
 #include "Calc.h"
-#import "ViewController.h"
+#import "CalcController.h"
 
 //@interface ViewController ()
 //@end
@@ -35,7 +35,7 @@
     // arg2 = [calcAreaNumber doubleValue];  // Obj-C Class method to convert NSSTRING to double
     arg2 = calcAreaNumber.doubleValue;  // Alternate Java like syntax to convert NSSTRING to double
     
-    calcAnswer = calc(arg1, mathOp, arg2, arg1sqd, arg2sqd);
+    calcAnswer = calc(arg1, mathOp, arg2);
 }
 
 

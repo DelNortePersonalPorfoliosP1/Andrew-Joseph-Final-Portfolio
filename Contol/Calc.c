@@ -11,10 +11,10 @@
 
 
 
-double calc(double arg1 ,int mathOp,double arg2, int arg1sqd, int arg2sqd){
+double calc(double arg1 ,int mathOp,double arg2){
      
-    arg1sqd = arg1*arg1;
-    arg2sqd = arg2*arg2;
+    int arg1sqd = arg1*arg1;
+    int arg2sqd = arg2*arg2;
     
 double calcAnswer = 0.0;
     

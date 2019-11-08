@@ -21,5 +21,5 @@
 
 
 #include <stdio.h>
-double calc(double arg1 ,int mathOp,double arg2, int arg1sqd, int arg2sqd);
+double calc(double arg1 ,int mathOp,double arg2);
 #endif /* calc_h */
