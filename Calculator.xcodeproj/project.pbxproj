@@ -16,6 +16,9 @@
 		A5D9BAFE23562ACD005B3D37 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D9BAFD23562ACD005B3D37 /* main.m */; };
 		A5E58827236353C400D53A24 /* Pythagorean.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5E58826236353C400D53A24 /* Pythagorean.storyboard */; };
 		A5E58829236353FD00D53A24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5E58828236353FD00D53A24 /* Main.storyboard */; };
+		C036B4F1237B28F3000D17CA /* FileIOController.m in Sources */ = {isa = PBXBuildFile; fileRef = C036B4F0237B28F3000D17CA /* FileIOController.m */; };
+		C036B4F6237B29EC000D17CA /* fileparse.c in Sources */ = {isa = PBXBuildFile; fileRef = C036B4F5237B29EC000D17CA /* fileparse.c */; };
+		C036B4F9237B2A2A000D17CA /* porgramming.c in Sources */ = {isa = PBXBuildFile; fileRef = C036B4F8237B2A2A000D17CA /* porgramming.c */; };
 		C08B26672373300E00DDE781 /* Calc.c in Sources */ = {isa = PBXBuildFile; fileRef = C08B26662373300E00DDE781 /* Calc.c */; };
 		C0D61C4B2371ED6700CB7547 /* fileio.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0D61C4A2371ED6700CB7547 /* fileio.storyboard */; };
 		C0EB2BE223748251004004F5 /* Hisogram.m in Sources */ = {isa = PBXBuildFile; fileRef = C0EB2BE123748251004004F5 /* Hisogram.m */; };
@@ -35,6 +38,13 @@
 		A5D9BAFD23562ACD005B3D37 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A5E58826236353C400D53A24 /* Pythagorean.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Pythagorean.storyboard; sourceTree = "<group>"; };
 		A5E58828236353FD00D53A24 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		C036B4F0237B28F3000D17CA /* FileIOController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FileIOController.m; sourceTree = "<group>"; };
+		C036B4F2237B2901000D17CA /* FileIOController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FileIOController.h; sourceTree = "<group>"; };
+		C036B4F3237B29B5000D17CA /* Control.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Control.h; sourceTree = "<group>"; };
+		C036B4F4237B29EC000D17CA /* fileparse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fileparse.h; sourceTree = "<group>"; };
+		C036B4F5237B29EC000D17CA /* fileparse.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fileparse.c; sourceTree = "<group>"; };
+		C036B4F7237B2A2A000D17CA /* porgramming.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = porgramming.h; sourceTree = "<group>"; };
+		C036B4F8237B2A2A000D17CA /* porgramming.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = porgramming.c; sourceTree = "<group>"; };
 		C08B26652373300E00DDE781 /* Calc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Calc.h; sourceTree = "<group>"; };
 		C08B26662373300E00DDE781 /* Calc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Calc.c; sourceTree = "<group>"; };
 		C0C289442375CB4E00681AB2 /* Histogram.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Histogram.h; sourceTree = "<group>"; };
@@ -112,6 +122,8 @@
 				A5D9BAF223562ACB005B3D37 /* CalcController.m */,
 				C0EB2BE123748251004004F5 /* Hisogram.m */,
 				C0C289442375CB4E00681AB2 /* Histogram.h */,
+				C036B4F0237B28F3000D17CA /* FileIOController.m */,
+				C036B4F2237B2901000D17CA /* FileIOController.h */,
 			);
 			path = Viewcontrollers;
 			sourceTree = "<group>";
@@ -121,6 +133,11 @@
 			children = (
 				C08B26652373300E00DDE781 /* Calc.h */,
 				C08B26662373300E00DDE781 /* Calc.c */,
+				C036B4F3237B29B5000D17CA /* Control.h */,
+				C036B4F4237B29EC000D17CA /* fileparse.h */,
+				C036B4F5237B29EC000D17CA /* fileparse.c */,
+				C036B4F7237B2A2A000D17CA /* porgramming.h */,
+				C036B4F8237B2A2A000D17CA /* porgramming.c */,
 			);
 			path = Contol;
 			sourceTree = "<group>";
@@ -200,10 +217,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				C08B26672373300E00DDE781 /* Calc.c in Sources */,
+				C036B4F9237B2A2A000D17CA /* porgramming.c in Sources */,
 				A5D9BAF323562ACB005B3D37 /* CalcController.m in Sources */,
 				A5D9BAFE23562ACD005B3D37 /* main.m in Sources */,
 				A5D9BAF023562ACB005B3D37 /* AppDelegate.m in Sources */,
 				C0EB2BE223748251004004F5 /* Hisogram.m in Sources */,
+				C036B4F6237B29EC000D17CA /* fileparse.c in Sources */,
+				C036B4F1237B28F3000D17CA /* FileIOController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

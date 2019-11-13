@@ -14,7 +14,7 @@
 @implementation ViewController // beginning of implementation
 
 // syntesize enables getter and setter methods as used in Obj-C
-@synthesize initialCalcAreaInputState, calcAreaDefault, calcAreaNumber, calcAreaLabel;
+@synthesize initialCalcAreaInputState, calcAreaDefault, calcAreaNumber, calcAreaLabel, side1, side2;
 
 
 
@@ -67,6 +67,7 @@
     [calcAreaLabel setText:calcAreaNumber];
 }
 
+
 -(void)concatCalcAreaLabel:(NSString *)keyNumber {  // helper method for handling number being input
     if (initialCalcAreaInputState) {  // sets number vs concat on initial key typed
         [self setCalcAreaNumber:keyNumber];
@@ -81,6 +82,7 @@
     [self setCalcAreaNumber:calcAreaDefault];
     [self setInitialCalcAreaInputState:true];  // set calc area state to starting state
     [self setTextCalcAreaLabel];
+    
 }
 -(void)OneArgOperater {  // helper method to clear and update text in Calc Area to default
     [self setInitialCalcAreaInputState:true];  // set calc area state to starting state
@@ -106,6 +108,7 @@
 -(IBAction)clearButton:(id)sender { // Interface Builder action for clear (clean calculator)
     [self clearCalculator];          // clear operator
     [self clearCalcAreaLabel];
+    
     hold = 0;
 }
 
@@ -165,6 +168,10 @@ int hold = 0;
         [self calculateAnswer];
         [self setCalcAreaNumber:[NSString stringWithFormat:@"%f", calcAnswer]];
         [self setTextCalcAreaLabel];
+        [self setCalcAreaNumber:[NSString stringWithFormat:@"%.2f", arg1]];
+        [side1 setText:calcAreaNumber];
+        [self setCalcAreaNumber:[NSString stringWithFormat:@"%.2f", arg2]];
+        [side2 setText:calcAreaNumber];
         [self saveValueofAnswer];
         [self setInitialCalcAreaInputState:true];
         hold = 0;

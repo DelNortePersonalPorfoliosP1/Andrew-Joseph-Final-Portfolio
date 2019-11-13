@@ -30,6 +30,8 @@
 
 /* Section 3: Obj-C style to support Interfacce Builder Outlet for Calc area */
 @property (strong, nonatomic) IBOutlet UILabel *calcAreaLabel;
+@property (strong, nonatomic) IBOutlet UILabel *side1;
+@property (strong, nonatomic) IBOutlet UILabel *side2;
 
 @end
 

@@ -149,67 +149,6 @@
             </objects>
             <point key="canvasLocation" x="1621" y="342"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="YTN-6L-m9M">
-            <objects>
-                <viewController id="gD5-VA-5qC" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="ovW-ZU-GrA">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1JS-8C-wUT">
-                                <rect key="frame" x="113" y="236" width="188" height="59"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="39"/>
-                                <state key="normal" title="pythagoras"/>
-                                <connections>
-                                    <segue destination="ijG-Xs-9t3" kind="show" id="O8Q-aO-D4i"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a06-Fq-eVg">
-                                <rect key="frame" x="124" y="344" width="167" height="59"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="39"/>
-                                <state key="normal" title="histogram"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Yz-Ve-8Hp">
-                                <rect key="frame" x="126" y="458" width="163" height="59"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="39"/>
-                                <state key="normal" title="calculator"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3E6-jr-aRB">
-                                <rect key="frame" x="166" y="542" width="79" height="59"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="39"/>
-                                <state key="normal" title="fileio"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uAW-Cb-V8R">
-                                <rect key="frame" x="160" y="632" width="112" height="59"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="39"/>
-                                <state key="normal" title="search"/>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="nqU-k5-DfA"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="OHr-fy-BUf"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="i7q-ix-epr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2566.666666666667" y="1198.6607142857142"/>
-        </scene>
-        <!--Pythagorean-->
-        <scene sceneID="oB6-GD-7Ie">
-            <objects>
-                <viewControllerPlaceholder storyboardName="Pythagorean" id="ijG-Xs-9t3" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="Jxk-R0-eyu"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="4Ef-kC-TWg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3076" y="1113"/>
-        </scene>
         <!--Navigation Controller-->
         <scene sceneID="srf-sw-1VZ">
             <objects>
@@ -227,24 +166,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x6v-6l-7uQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="92.753623188405811" y="34.821428571428569"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="oYT-7C-8cg">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="zMx-5m-zs7" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="gwm-p6-ieI">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="gD5-VA-5qC" kind="relationship" relationship="rootViewController" id="76q-61-UwC"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="yEV-iz-krq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1656.521739130435" y="1198.6607142857142"/>
         </scene>
     </scenes>
     <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
