@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A544CC872369E15500799EEE /* Patterns.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A544CC862369E15500799EEE /* Patterns.storyboard */; };
+		A544CC872369E15500799EEE /* Search.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A544CC862369E15500799EEE /* Search.storyboard */; };
 		A5D9BAF023562ACB005B3D37 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D9BAEF23562ACB005B3D37 /* AppDelegate.m */; };
 		A5D9BAF323562ACB005B3D37 /* CalcController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D9BAF223562ACB005B3D37 /* CalcController.m */; };
 		A5D9BAF623562ACB005B3D37 /* Calculator.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5D9BAF423562ACB005B3D37 /* Calculator.storyboard */; };
@@ -21,11 +21,12 @@
 		C036B4F9237B2A2A000D17CA /* porgramming.c in Sources */ = {isa = PBXBuildFile; fileRef = C036B4F8237B2A2A000D17CA /* porgramming.c */; };
 		C08B26672373300E00DDE781 /* Calc.c in Sources */ = {isa = PBXBuildFile; fileRef = C08B26662373300E00DDE781 /* Calc.c */; };
 		C0D61C4B2371ED6700CB7547 /* fileio.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0D61C4A2371ED6700CB7547 /* fileio.storyboard */; };
+		C0DC1AAF237DB755009BCFE6 /* AlgoController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0DC1AAE237DB755009BCFE6 /* AlgoController.m */; };
 		C0EB2BE223748251004004F5 /* Hisogram.m in Sources */ = {isa = PBXBuildFile; fileRef = C0EB2BE123748251004004F5 /* Hisogram.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A544CC862369E15500799EEE /* Patterns.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Patterns.storyboard; sourceTree = "<group>"; };
+		A544CC862369E15500799EEE /* Search.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Search.storyboard; sourceTree = "<group>"; };
 		A5D9BAEB23562ACB005B3D37 /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5D9BAEE23562ACB005B3D37 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A5D9BAEF23562ACB005B3D37 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -49,6 +50,8 @@
 		C08B26662373300E00DDE781 /* Calc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Calc.c; sourceTree = "<group>"; };
 		C0C289442375CB4E00681AB2 /* Histogram.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Histogram.h; sourceTree = "<group>"; };
 		C0D61C4A2371ED6700CB7547 /* fileio.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = fileio.storyboard; sourceTree = "<group>"; };
+		C0DC1AAE237DB755009BCFE6 /* AlgoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlgoController.m; sourceTree = "<group>"; };
+		C0DC1AB0237DB763009BCFE6 /* AlgoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlgoController.h; sourceTree = "<group>"; };
 		C0EB2BE123748251004004F5 /* Hisogram.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Hisogram.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -96,7 +99,7 @@
 		A5D9BB0723562CE1005B3D37 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				A544CC862369E15500799EEE /* Patterns.storyboard */,
+				A544CC862369E15500799EEE /* Search.storyboard */,
 				A5D9BAF423562ACB005B3D37 /* Calculator.storyboard */,
 				A5E58828236353FD00D53A24 /* Main.storyboard */,
 				C0D61C4A2371ED6700CB7547 /* fileio.storyboard */,
@@ -124,6 +127,8 @@
 				C0C289442375CB4E00681AB2 /* Histogram.h */,
 				C036B4F0237B28F3000D17CA /* FileIOController.m */,
 				C036B4F2237B2901000D17CA /* FileIOController.h */,
+				C0DC1AAE237DB755009BCFE6 /* AlgoController.m */,
+				C0DC1AB0237DB763009BCFE6 /* AlgoController.h */,
 			);
 			path = Viewcontrollers;
 			sourceTree = "<group>";
@@ -202,7 +207,7 @@
 				A5D9BAFB23562ACD005B3D37 /* LaunchScreen.storyboard in Resources */,
 				A5E58829236353FD00D53A24 /* Main.storyboard in Resources */,
 				A5D9BAF823562ACD005B3D37 /* Assets.xcassets in Resources */,
-				A544CC872369E15500799EEE /* Patterns.storyboard in Resources */,
+				A544CC872369E15500799EEE /* Search.storyboard in Resources */,
 				C0D61C4B2371ED6700CB7547 /* fileio.storyboard in Resources */,
 				A5D9BAF623562ACB005B3D37 /* Calculator.storyboard in Resources */,
 				A5E58827236353C400D53A24 /* Pythagorean.storyboard in Resources */,
@@ -224,6 +229,7 @@
 				C0EB2BE223748251004004F5 /* Hisogram.m in Sources */,
 				C036B4F6237B29EC000D17CA /* fileparse.c in Sources */,
 				C036B4F1237B28F3000D17CA /* FileIOController.m in Sources */,
+				C0DC1AAF237DB755009BCFE6 /* AlgoController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

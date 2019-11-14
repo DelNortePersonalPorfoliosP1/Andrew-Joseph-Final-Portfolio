@@ -65,18 +65,6 @@
                                     <segue destination="B4C-Qf-lXr" kind="show" id="adm-Ny-dZ5"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Afh-lK-SmM">
-                                <rect key="frame" x="40" y="499" width="231" height="48"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="30"/>
-                                <state key="normal" title="Pretty Patterns">
-                                    <color key="titleColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <segue destination="iN7-2d-h7c" kind="show" id="2nV-sr-FcV"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rMq-6x-4pA">
                                 <rect key="frame" x="139" y="610" width="241" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -98,6 +86,9 @@
                                     <color key="titleColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <color key="titleShadowColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="fYp-yF-OYU" kind="show" id="Uae-Hl-7yA"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -129,15 +120,15 @@
             </objects>
             <point key="canvasLocation" x="1644" y="15"/>
         </scene>
-        <!--Patterns-->
-        <scene sceneID="C3K-Ex-J3Z">
+        <!--Search-->
+        <scene sceneID="aea-iU-VT0">
             <objects>
-                <viewControllerPlaceholder storyboardName="Patterns" id="iN7-2d-h7c" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="MHa-j7-hCJ"/>
+                <viewControllerPlaceholder storyboardName="Search" id="fYp-yF-OYU" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="lB3-5S-6XQ"/>
                 </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="WoE-dH-7mY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hv3-fa-0VI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1685" y="202"/>
+            <point key="canvasLocation" x="1621" y="99"/>
         </scene>
         <!--Calculator-->
         <scene sceneID="8qD-Xh-cmh">
