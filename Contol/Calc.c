@@ -55,7 +55,20 @@ double calcAnswer = 0.0;
                        break;
          case PYTH:
             calcAnswer = sqrt(arg1sqd + arg2sqd);
+            
             break;
+            case SECONDS:
+            calcAnswer = (arg1);
+            break;
+            case MINUTES:
+                    calcAnswer = (arg1/60);
+                    break;
+            case HOURS:
+                    calcAnswer = (arg1/3600);
+                    break;
+            case DAYS:
+                    calcAnswer = (arg1/86400);
+                    break;
         case -1:
             calcAnswer = arg1;
     }

@@ -182,6 +182,42 @@ int hold = 0;
     [self clearCalcAreaLabel];
     }
 }
+-(IBAction)Sec:(id)sender {  // Interface Builder action for divide (/)
+[self saveValueOfOperator:SECONDS];
+[self saveValueOfArg1];
+[self calculateAnswer];
+   [self setCalcAreaNumber:[NSString stringWithFormat:@"%f", calcAnswer]];
+   [self setTextCalcAreaLabel];
+   [self saveValueofAnswer];
+   [self setInitialCalcAreaInputState:true];
+}
+-(IBAction)Min:(id)sender {  // Interface Builder action for divide (/)
+[self saveValueOfOperator:MINUTES];
+[self saveValueOfArg1];
+[self calculateAnswer];
+   [self setCalcAreaNumber:[NSString stringWithFormat:@"%f", calcAnswer]];
+   [self setTextCalcAreaLabel];
+   [self saveValueofAnswer];
+   [self setInitialCalcAreaInputState:true];
+}
+-(IBAction)Hour:(id)sender {  // Interface Builder action for divide (/)
+[self saveValueOfOperator:HOURS];
+[self saveValueOfArg1];
+[self calculateAnswer];
+   [self setCalcAreaNumber:[NSString stringWithFormat:@"%f", calcAnswer]];
+   [self setTextCalcAreaLabel];
+   [self saveValueofAnswer];
+   [self setInitialCalcAreaInputState:true];
+}
+-(IBAction)Day:(id)sender {  // Interface Builder action for divide (/)
+[self saveValueOfOperator:DAYS];
+[self saveValueOfArg1];
+[self calculateAnswer];
+   [self setCalcAreaNumber:[NSString stringWithFormat:@"%f", calcAnswer]];
+   [self setTextCalcAreaLabel];
+   [self saveValueofAnswer];
+   [self setInitialCalcAreaInputState:true];
+}
 // Interface Builder actions  for numbers and decimal
 -(IBAction)press9Button:(id)sender {  // Interface Builder action for (9)
     NSString *keyNumber = @"9";

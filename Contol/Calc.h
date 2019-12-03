@@ -18,6 +18,10 @@
 #define POWER2 6
 #define POWER 7
 #define PYTH 8
+#define SECONDS 9
+#define MINUTES 10
+#define HOURS 11
+#define DAYS 12
 
 
 #include <stdio.h>
