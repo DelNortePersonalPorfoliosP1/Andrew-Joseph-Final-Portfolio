@@ -14,8 +14,8 @@
 }
 
 
-// revx4 prototypes
-char *revXArray(char* input, long length);
+// revx4 prototypes saved incase something happens
+//char *revXArray(char* input, long length);
 char *revXRecurse(char* input, long length);
 char *revXPointer(char* input, long length);
 char *paliEval(char* input, long length);

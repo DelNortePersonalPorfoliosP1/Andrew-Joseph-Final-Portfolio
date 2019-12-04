@@ -47,5 +47,6 @@ int histogram(char *message);
 int zeroTest(double value);
 double calculateIt(double arg1, int mathOp, double arg2);
 double hyptoneuse (double side1, double side2);
+char *revXArray(char* input, long length);
 
 #endif /* portfolio_h */

@@ -7,10 +7,17 @@
 //
 
 #include "Control.h"
+#include "egasseM.h"
 #import "Backwards.h"
-@implementation Back
+
+@implementation BackController
 @synthesize input, revX1, revX2, revX3, revX4;
 
+
+
+-(void)viewDidLoad {
+   [super viewDidLoad];
+}
 
 -(IBAction)Rev:(id)sender {
     const char *cInput = [input.text UTF8String];

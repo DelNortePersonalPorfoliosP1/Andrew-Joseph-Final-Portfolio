@@ -19,6 +19,7 @@
 		C036B4F1237B28F3000D17CA /* FileIOController.m in Sources */ = {isa = PBXBuildFile; fileRef = C036B4F0237B28F3000D17CA /* FileIOController.m */; };
 		C036B4F6237B29EC000D17CA /* fileparse.c in Sources */ = {isa = PBXBuildFile; fileRef = C036B4F5237B29EC000D17CA /* fileparse.c */; };
 		C036B4F9237B2A2A000D17CA /* porgramming.c in Sources */ = {isa = PBXBuildFile; fileRef = C036B4F8237B2A2A000D17CA /* porgramming.c */; };
+		C038CDDD239868F500DD2508 /* egasseM.c in Sources */ = {isa = PBXBuildFile; fileRef = C038CDDC239868F500DD2508 /* egasseM.c */; };
 		C08B26672373300E00DDE781 /* Calc.c in Sources */ = {isa = PBXBuildFile; fileRef = C08B26662373300E00DDE781 /* Calc.c */; };
 		C0D61C4B2371ED6700CB7547 /* fileio.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0D61C4A2371ED6700CB7547 /* fileio.storyboard */; };
 		C0DC1AAF237DB755009BCFE6 /* AlgoController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0DC1AAE237DB755009BCFE6 /* AlgoController.m */; };
@@ -49,6 +50,8 @@
 		C036B4F5237B29EC000D17CA /* fileparse.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fileparse.c; sourceTree = "<group>"; };
 		C036B4F7237B2A2A000D17CA /* porgramming.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = porgramming.h; sourceTree = "<group>"; };
 		C036B4F8237B2A2A000D17CA /* porgramming.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = porgramming.c; sourceTree = "<group>"; };
+		C038CDDB239868F500DD2508 /* egasseM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = egasseM.h; sourceTree = "<group>"; };
+		C038CDDC239868F500DD2508 /* egasseM.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = egasseM.c; sourceTree = "<group>"; };
 		C08B26652373300E00DDE781 /* Calc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Calc.h; sourceTree = "<group>"; };
 		C08B26662373300E00DDE781 /* Calc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Calc.c; sourceTree = "<group>"; };
 		C0C289442375CB4E00681AB2 /* Histogram.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Histogram.h; sourceTree = "<group>"; };
@@ -76,10 +79,10 @@
 		A5D9BAE223562ACB005B3D37 = {
 			isa = PBXGroup;
 			children = (
-				C08B266423732FEF00DDE781 /* Contol */,
-				A5D9BB0923562CF9005B3D37 /* Viewcontrollers */,
 				A5D9BB0823562CF0005B3D37 /* Models */,
 				A5D9BB0723562CE1005B3D37 /* Views */,
+				A5D9BB0923562CF9005B3D37 /* Viewcontrollers */,
+				C08B266423732FEF00DDE781 /* Contol */,
 				A5D9BAED23562ACB005B3D37 /* Calculator */,
 				A5D9BAEC23562ACB005B3D37 /* Products */,
 			);
@@ -154,6 +157,8 @@
 				C036B4F5237B29EC000D17CA /* fileparse.c */,
 				C036B4F7237B2A2A000D17CA /* porgramming.h */,
 				C036B4F8237B2A2A000D17CA /* porgramming.c */,
+				C038CDDB239868F500DD2508 /* egasseM.h */,
+				C038CDDC239868F500DD2508 /* egasseM.c */,
 			);
 			path = Contol;
 			sourceTree = "<group>";
@@ -239,6 +244,7 @@
 				A5D9BAF323562ACB005B3D37 /* CalcController.m in Sources */,
 				A5D9BAFE23562ACD005B3D37 /* main.m in Sources */,
 				A5D9BAF023562ACB005B3D37 /* AppDelegate.m in Sources */,
+				C038CDDD239868F500DD2508 /* egasseM.c in Sources */,
 				C0EB2BE223748251004004F5 /* Hisogram.m in Sources */,
 				C0DF7D8F23971BE500AB55AC /* Backwards.m in Sources */,
 				C036B4F6237B29EC000D17CA /* fileparse.c in Sources */,
