@@ -7,13 +7,19 @@
 //
 
 #include "egasseM.h"
+char rev4Xbuffer [1000];
 
+void clearBuffer(void) {
+    for(int i = 1; i < 1000; i++) {
+        rev4Xbuffer[i] = '/0';
+    }
+}
 char revXArray(const char *cInput, long inputLength) {
-    int start = 0;
-    int end = inputLength - 1;
-    for(start < end; start++; end--)
+    for(int start=0, int end = inputLength - 1; (start < end); start++; end--;)
     {
         
+        
+       
         
         
         
