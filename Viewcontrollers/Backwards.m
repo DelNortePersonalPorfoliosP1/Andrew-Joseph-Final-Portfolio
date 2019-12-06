@@ -21,9 +21,16 @@
 
 -(IBAction)Rev:(id)sender {
     const char *cInput = [input.text UTF8String];
-     long inputLength = input.text.length;
+     long Length = input.text.length;
      // Method 1 - Array method
-     revX1.text = [NSString stringWithFormat:@"%s" , revXArray((char*)cInput, inputLength) ];
+     revX1.text = [NSString stringWithFormat:@"%s" , revXArray((char*)cInput, Length) ];
+    
+    
+    revX2.text = [NSString stringWithFormat:@"%s" , revXPointer((char*)cInput, Length) ];
+    
+       revX3.text = [NSString stringWithFormat:@"%s" , revXRecurse((char*)cInput, Length) ];
+       
+    
 }
 
 
