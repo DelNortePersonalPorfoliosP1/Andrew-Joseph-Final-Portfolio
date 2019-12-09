@@ -81,7 +81,9 @@ char *revXPointer(const char* input, long length) {
 // pali evaluation
 char *paliEval(const char* input, long length) {
      //call function above to reverse string
-     char *reverse = revXArray(input, length);
+     const char *reverse = revXArray(input, length);
+    strcmp(const char *input, const char *reverse) ;
+    
      //compare for equality, return message
      return 1 ? isPali : noPali;
 }
