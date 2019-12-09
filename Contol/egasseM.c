@@ -30,13 +30,20 @@ char *revXArray(const char* input, long length) {
 // recursion helper, recursive loop function
 void recurse(char* input, long start, long end) {
     // recursion terminates
-    if (start >= end)
-      
-        return;
-    // recursion continues
 
-    start = end;
-    recurse(input, ++start, --end);
+    if (start >= end)
+        
+        return;
+          char swap;
+    // recursion continues
+   
+    swap = *(input+start);
+    *(input+start)=*(input+end);
+    *(input+end) = swap;
+         recurse(input, ++start, --end);
+    
+ 
+   
 }
 // recursion reverse function
 char *revXRecurse(const char* input, long length){
@@ -56,20 +63,25 @@ char *revXPointer(const char* input, long length) {
      bufferClear();
     strncpy(rev4XBuffer, input, length);
     // initialize pointer control variables
-    char *begin = rev4XBuffer;
+    char *start = rev4XBuffer;
     char *end = rev4XBuffer;
     end += length - 1;  // pointer math is simple on char as it corresponds to memory
     // reverse char's in buffer by pointer referece
-    while ( begin < end ) {
+    while ( start < end ) {
         // pointer address increment/decrement
-        begin++;
+        char swap;
+        swap = *start;
+        *start = *end;
+        *end = swap;
+        start++;
         end--;
     }
     return rev4XBuffer;
 }
 // pali evaluation
-// char *paliEval(const char* input, long length) {
-    // call function above to reverse string
-    // char *reverse = revXArray(input, length);
-    // compare for equality, return message
-    // return 1 ? isPali : noPali;
+char *paliEval(const char* input, long length) {
+     //call function above to reverse string
+     char *reverse = revXArray(input, length);
+     //compare for equality, return message
+     return 1 ? isPali : noPali;
+}
