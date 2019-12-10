@@ -24,5 +24,6 @@
 @property (strong, nonatomic) IBOutlet UILabel *revX2;
 @property (strong, nonatomic) IBOutlet UILabel *revX3;
 @property (strong, nonatomic) IBOutlet UILabel *revX4;
+@property (strong, nonatomic) IBOutlet UILabel *revX5;
 
 @end 
