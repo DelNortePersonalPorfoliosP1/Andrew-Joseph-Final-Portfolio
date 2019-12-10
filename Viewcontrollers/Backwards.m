@@ -29,6 +29,8 @@
     revX2.text = [NSString stringWithFormat:@"%s" , revXPointer((char*)cInput, Length) ];
     
        revX3.text = [NSString stringWithFormat:@"%s" , revXRecurse((char*)cInput, Length) ];
+    
+     revX4.text = [NSString stringWithFormat:@"%s" , paliEval((char*)cInput, Length) ];
        
     
 }

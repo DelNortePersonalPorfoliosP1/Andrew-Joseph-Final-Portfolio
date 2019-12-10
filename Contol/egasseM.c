@@ -50,7 +50,7 @@ char *revXRecurse(const char* input, long length){
     // copy string to buffer, don't disrupt original
      bufferClear();
     strncpy(rev4XBuffer, input, length);
-     
+         
     // recursion control variables
     long start = 0;
     long end = length-1;
@@ -80,10 +80,18 @@ char *revXPointer(const char* input, long length) {
 }
 // pali evaluation
 char *paliEval(const char* input, long length) {
+    bufferClear();
      //call function above to reverse string
-     const char *reverse = revXArray(input, length);
-    strcmp(const char *input, const char *reverse) ;
+     strncpy(rev4XBuffer, input, length);
+      char *reverse = revXArray(input, length);
+   if (strcmp(reverse, input) == 0)
+   {
+       return isPali;
+   }
+   else {
+       return noPali;
+   }
     
      //compare for equality, return message
-     return 1 ? isPali : noPali;
+     
 }
