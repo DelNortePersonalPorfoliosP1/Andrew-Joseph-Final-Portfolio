@@ -11,12 +11,7 @@ void bufferClear(void) {
         rev4XBuffer[i] = '\0';
     }
 }
-char vowels[5] = {'a', 'e', 'i', 'o', 'u'};
-void vcheck(char* input, long length) {
-    for(long start = 0, end = length-1; start < end; start++, end--) {
-        
-    }
-}
+
 
 char *revXArray(const char* input, long length) {
     // copy string to buffer, don't disrupt original
@@ -98,10 +93,4 @@ char *paliEval(const char* input, long length) {
    }
     
      //compare for equality, return message
-}
-char *iglatinpay(const char* input, long length) {
-       bufferClear();
-     strncpy(rev4XBuffer, input, length);
-    vcheck(rev4XBuffer, length);
-    return rev4XBuffer;
 }

@@ -27,6 +27,9 @@
 		C0DF7D8F23971BE500AB55AC /* Backwards.m in Sources */ = {isa = PBXBuildFile; fileRef = C0DF7D8E23971BE500AB55AC /* Backwards.m */; };
 		C0E03C882384A68200D7D3ED /* Time.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0E03C872384A68200D7D3ED /* Time.storyboard */; };
 		C0EB2BE223748251004004F5 /* Hisogram.m in Sources */ = {isa = PBXBuildFile; fileRef = C0EB2BE123748251004004F5 /* Hisogram.m */; };
+		C0F2526723A1A8FB003A8631 /* PigLatinController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0F2526623A1A8FB003A8631 /* PigLatinController.m */; };
+		C0F2526A23A1AA15003A8631 /* PigLatin.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0F2526923A1AA15003A8631 /* PigLatin.storyboard */; };
+		C0F2526D23A1ABF9003A8631 /* PigLatin.c in Sources */ = {isa = PBXBuildFile; fileRef = C0F2526C23A1ABF9003A8631 /* PigLatin.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,6 +66,11 @@
 		C0DF7D9023971BF000AB55AC /* Backwards.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Backwards.h; sourceTree = "<group>"; };
 		C0E03C872384A68200D7D3ED /* Time.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Time.storyboard; sourceTree = "<group>"; };
 		C0EB2BE123748251004004F5 /* Hisogram.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Hisogram.m; sourceTree = "<group>"; };
+		C0F2526623A1A8FB003A8631 /* PigLatinController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PigLatinController.m; sourceTree = "<group>"; };
+		C0F2526823A1A924003A8631 /* PigLatinController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PigLatinController.h; sourceTree = "<group>"; };
+		C0F2526923A1AA15003A8631 /* PigLatin.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PigLatin.storyboard; sourceTree = "<group>"; };
+		C0F2526B23A1ABF9003A8631 /* PigLatin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PigLatin.h; sourceTree = "<group>"; };
+		C0F2526C23A1ABF9003A8631 /* PigLatin.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = PigLatin.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +125,7 @@
 				A5E58826236353C400D53A24 /* Pythagorean.storyboard */,
 				A5D9BAF923562ACD005B3D37 /* LaunchScreen.storyboard */,
 				C0DF7D8C23971B0400AB55AC /* Backwards.storyboard */,
+				C0F2526923A1AA15003A8631 /* PigLatin.storyboard */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -143,6 +152,8 @@
 				C0DC1AB0237DB763009BCFE6 /* AlgoController.h */,
 				C0DF7D8E23971BE500AB55AC /* Backwards.m */,
 				C0DF7D9023971BF000AB55AC /* Backwards.h */,
+				C0F2526623A1A8FB003A8631 /* PigLatinController.m */,
+				C0F2526823A1A924003A8631 /* PigLatinController.h */,
 			);
 			path = Viewcontrollers;
 			sourceTree = "<group>";
@@ -159,6 +170,8 @@
 				C036B4F8237B2A2A000D17CA /* porgramming.c */,
 				C038CDDB239868F500DD2508 /* egasseM.h */,
 				C038CDDC239868F500DD2508 /* egasseM.c */,
+				C0F2526B23A1ABF9003A8631 /* PigLatin.h */,
+				C0F2526C23A1ABF9003A8631 /* PigLatin.c */,
 			);
 			path = Contol;
 			sourceTree = "<group>";
@@ -224,6 +237,7 @@
 				A5E58829236353FD00D53A24 /* Main.storyboard in Resources */,
 				A5D9BAF823562ACD005B3D37 /* Assets.xcassets in Resources */,
 				A544CC872369E15500799EEE /* Search.storyboard in Resources */,
+				C0F2526A23A1AA15003A8631 /* PigLatin.storyboard in Resources */,
 				C0D61C4B2371ED6700CB7547 /* fileio.storyboard in Resources */,
 				C0E03C882384A68200D7D3ED /* Time.storyboard in Resources */,
 				C0DF7D8D23971B0400AB55AC /* Backwards.storyboard in Resources */,
@@ -241,11 +255,13 @@
 			files = (
 				C08B26672373300E00DDE781 /* Calc.c in Sources */,
 				C036B4F9237B2A2A000D17CA /* porgramming.c in Sources */,
+				C0F2526D23A1ABF9003A8631 /* PigLatin.c in Sources */,
 				A5D9BAF323562ACB005B3D37 /* CalcController.m in Sources */,
 				A5D9BAFE23562ACD005B3D37 /* main.m in Sources */,
 				A5D9BAF023562ACB005B3D37 /* AppDelegate.m in Sources */,
 				C038CDDD239868F500DD2508 /* egasseM.c in Sources */,
 				C0EB2BE223748251004004F5 /* Hisogram.m in Sources */,
+				C0F2526723A1A8FB003A8631 /* PigLatinController.m in Sources */,
 				C0DF7D8F23971BE500AB55AC /* Backwards.m in Sources */,
 				C036B4F6237B29EC000D17CA /* fileparse.c in Sources */,
 				C036B4F1237B28F3000D17CA /* FileIOController.m in Sources */,
