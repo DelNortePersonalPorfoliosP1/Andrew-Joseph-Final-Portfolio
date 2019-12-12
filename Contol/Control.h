@@ -51,6 +51,8 @@ char *revXArray(const char* input, long length);
 char *revXRecurse(const char* input, long length);
 char *revXPointer(const char* input, long length);
 char *paliEval(const char* input, long length);
+char *piglatin(const char* input, long length);
+
 
 
 #endif /* portfolio_h */

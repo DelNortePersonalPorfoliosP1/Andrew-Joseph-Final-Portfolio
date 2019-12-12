@@ -69,7 +69,6 @@
 		C0F2526623A1A8FB003A8631 /* PigLatinController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PigLatinController.m; sourceTree = "<group>"; };
 		C0F2526823A1A924003A8631 /* PigLatinController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PigLatinController.h; sourceTree = "<group>"; };
 		C0F2526923A1AA15003A8631 /* PigLatin.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PigLatin.storyboard; sourceTree = "<group>"; };
-		C0F2526B23A1ABF9003A8631 /* PigLatin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PigLatin.h; sourceTree = "<group>"; };
 		C0F2526C23A1ABF9003A8631 /* PigLatin.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = PigLatin.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -170,7 +169,6 @@
 				C036B4F8237B2A2A000D17CA /* porgramming.c */,
 				C038CDDB239868F500DD2508 /* egasseM.h */,
 				C038CDDC239868F500DD2508 /* egasseM.c */,
-				C0F2526B23A1ABF9003A8631 /* PigLatin.h */,
 				C0F2526C23A1ABF9003A8631 /* PigLatin.c */,
 			);
 			path = Contol;

@@ -16,12 +16,14 @@
 -(void)viewDidLoad {
    [super viewDidLoad];
 }
+
+
 -(IBAction)Pig:(id)sender {
     
     
     const char *cInput = [input.text UTF8String];
         long Length = input.text.length;
-     Latin.text = [NSString stringWithFormat:@"%s" , revXArray((char*)cInput, Length) ];
+     Latin.text = [NSString stringWithFormat:@"%s" , piglatin((char*)cInput, Length) ];
     
     
 }
